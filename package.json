@@ -1,6 +1,6 @@
 {
-  "name": "types-rlp",
-  "version": "0.0.1",
+  "name": "@machinomy/types-rlp",
+  "version": "0.0.2",
   "description": "TypeScript declaration for rlp package",
   "main": "index.d.js",
   "types": "index.d.js",
@@ -18,7 +18,6 @@
     "rlp": "^2.0.0"
   },
   "devDependencies": {
-    "buffer": "^5.0.6",
-    "types-buffer": "^0.0.2"
+    "safe-buffer": "^5.0.6"
   }
 }

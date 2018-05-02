@@ -1,5 +1,5 @@
 declare module 'rlp' {
-  import { Buffer } from 'buffer'
+  import { Buffer } from 'safe-buffer'
 
   type EncodeScalarInput = Buffer|string|number
   type EncodeInput = EncodeScalarInput|Array<EncodeScalarInput>
